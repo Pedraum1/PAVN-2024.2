@@ -1,0 +1,5 @@
+first_name           last_name       Sales    
+Washington             Luís         14391.70  
+Epitácio              Pessoa        10456.60  
+Campos                 Sales        3131.09   
+Artur                Bernardes      1726.93   

@@ -1,0 +1,5 @@
+first_name           last_name       JAN      FEV      MAR      ABR      MAI      JUN      JUL      AGO      SET      OUT   
+campos                 sales       1314.15  1478.12    21     317.82      0        0        0        0        0        0    
+epitácio              pessoa       1159.57  2711.73  1288.54  451.17   1387.01  868.95   2589.63     0        0        0    
+artur                bernardes     485.97   1240.96     0        0        0        0        0        0        0        0    
+washington             luís         1242    324.12    43.76   1243.32   867.6   5467.9    456.5   4746.5      0        0    
