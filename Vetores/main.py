@@ -20,7 +20,7 @@ while True:
 
   vector_2 = Vector(vector_infos[0], vector_infos[1], vector_infos[2])
 
-  option = optionsInputs(['somar vetores','subtrair vetores','produto escalar dos vetores','multiplicar por constante','mostrar vetores','pular etapa'],"Escolha uma opção:")
+  option = optionsInputs(['somar vetores','subtrair vetores','produto escalar dos vetores','multiplicar por constante','mostrar vetores','calcular módulo do vetor','pular etapa'],"Escolha uma opção:")
   match option:
     case 0:
       print(f"Soma dos vetores; {vector_1+vector_2}")
@@ -34,14 +34,27 @@ while True:
     case 3:
       constant = inputOnlyNumber("Insira o valor da constante:")
       vector = optionsInputs([f'Vetor 1: {vector_1}',f'Vetor 2: {vector_2}'], "Escolha o vetor a ser multiplicado")
-      
+
       match vector:
         case 0:
-          print(f"Multiplicação do vetor por constante; {vector_1*constant}")
+          print(f"Multiplicação do vetor por constante: {vector_1*constant}")
         case 1:
-          print(f"Multiplicação do vetor por constante; {vector_2*constant}")
+          print(f"Multiplicação do vetor por constante: {vector_2*constant}")
 
     case 4:
+      print(f"Vetor 1: {vector_1}")
+      print(f"Vetor 2: {vector_2}")
+
+    case 5:
+      vector = optionsInputs([f'Vetor 1: {vector_1}',f'Vetor 2: {vector_2}'], "Escolha o vetor a ser multiplicado")
+
+      match vector:
+        case 0:
+          print(f"Módulo do vetor 1; {vector_1.modulus()}")
+        case 1:
+          print(f"Módulo do vetor 2; {vector_2.modulus()}")
+    
+    case 6:
       pass
 
   if optionsInputs(['sim','não'],"Deseja continuar o algoritmo?") == 1:
