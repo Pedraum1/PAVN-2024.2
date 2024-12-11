@@ -1,0 +1,7 @@
+product                sales   profit  
+Sanduíche               56      196.0  
+Água                    34      51.0   
+Bolo de pote            35      122.5  
+Refrigerante            54      108.0  
+
+Total de vendas: R$ 477.5

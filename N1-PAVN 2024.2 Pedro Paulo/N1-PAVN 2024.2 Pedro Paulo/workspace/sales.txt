@@ -1,0 +1,5 @@
+product                    category         stock    price    sales  
+sanduíche                   comida           11       3.5      56    
+água                        bebida           45       1.5      34    
+bolo_de_pote                comida            3       3.5      35    
+refrigerante                bebida           23        2       54    
